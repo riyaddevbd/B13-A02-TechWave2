@@ -75,6 +75,21 @@ body {
 }
 
 
+.footer-logo h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-logo h1 span {
+    background: linear-gradient(45deg, #9100F8, #FB09B4, #F7E93F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
 
 .nav-menu {
     display: flex;
@@ -1102,7 +1117,7 @@ body {
     }
 
     .nav-btn{
-        
+
         display: none;
 
     }
