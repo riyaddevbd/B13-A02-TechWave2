@@ -160,19 +160,24 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+     border: 2px solid #00e676;
     background-color: transparent;
-    border: 2px solid #00e676;
+   
     color: #00e676;
     cursor: pointer;
     transition: all 0.3s;
     font-size: 16px;
     white-space: nowrap;
+ 
 }
+
+
 
 .subscribe:hover {
     background-color: rgba(0, 230, 118, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 230, 118, 0.3);
+    border: 2px solid #00e676;
 }
 
 .menu-toggle-input {
