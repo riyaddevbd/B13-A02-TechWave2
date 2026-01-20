@@ -757,12 +757,12 @@ body {
 
 .platform {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 10px;
-    cursor: pointer;
-    transition: transform 0.3s;
+    /* cursor: pointer;
+    transition: transform 0.3s; */
 }
 
 .platform:hover {
@@ -775,7 +775,7 @@ body {
     object-fit: contain;
 }
 
-.platform span {
+.platform h6 {
     font-size: 14px;
     font-weight: 500;
     color: #B8B8B8;
